@@ -91,6 +91,14 @@ a:focus {
     background-color: lightgray;
 }
 
+.service-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 100px;
+}
+
 .service-icon {
     display: inline-block;
     margin: 15px;
@@ -108,7 +116,7 @@ a:focus {
     font-weight: bold;
 }
 
-.service-image{
+.service-image {
     height: 200px;
     width: 200px;
     border: 5px solid white;
@@ -117,11 +125,9 @@ a:focus {
 }
 
 .contact-container {
-    margin: 40px 35%;
-    display: block;
-    float: right;
-    left: -50%;
-    text-align: center;
+	float: left;
+	position: relative;
+	left: 29%;
 } 
 
 .contact {
@@ -148,14 +154,58 @@ a:focus {
         margin: 0;
 } 
 
-.about-page {
-    text-align: center;
-    padding-left: 12em;
+.about-container {
+	text-align: center;
+	position: relative;
+}
+
+.about-header {
+	text-align: center;
+	position: relative;
 }
 
 .about-page-text {
     font-weight: 500;
     font-size: larger;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.circle-icon {
+	font-size: 200px;
+}
+
+.faq-header{
+	text-align: center;
+	position: relative;
+}
+
+.question-container {
+	float: left;
+	position: relative;
+	left: 29%;
+}
+
+.question {
+	flex: 0 1 28%;
+	display: flex;
+	background-color: white;
+	margin: 2px;
+	padding: 20px;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+}
+
+.question-text {
+	flex: 1 1 80%;
+	margin-left: 20px;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.question-icon {
+	margin-top: 14px;
 }
 
 .ad-container {
@@ -201,8 +251,6 @@ a:focus {
     float: right;
 }
 
-
-
 .ad-text {
     float: left;
 }
@@ -212,7 +260,6 @@ a:focus {
 }
 
 /*
-
 .ad-container {
     margin: 50px 10%;
     display: flex;
@@ -254,3 +301,4 @@ a:focus {
 }
 
 */
+
