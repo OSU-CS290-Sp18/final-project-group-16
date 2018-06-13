@@ -4,10 +4,10 @@
   "description": "Handlebars templating",
   "main": "server.js",
   "scripts": {
+    "start": " node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "handlebars views/partials/adTemplate.handlebars -f public/adTemplate.js",
-    "prestart": "npm run build",
-    "start": " node server.js"
+    "prestart": "npm run build"
   },
   "repository": {
     "type": "git",
