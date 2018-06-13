@@ -34,7 +34,7 @@ app.get('/faq', function (req, res, next) {
 });
 
 app.get('/performers', function (req, res, next) {
-	res.status(202).render('indexPage', {
+	res.status(202).render('service', {
 		ads: [performerAds]
 	});
 });
@@ -50,7 +50,7 @@ app.get('/performers/:index', function (req, res, next) {
 });
 
 app.get('/photographers', function (req, res, next) {
-	res.status(202).render('indexPage', {
+	res.status(202).render('service', {
 		ads: [photographerAds]
 	});
 });
@@ -66,7 +66,7 @@ app.get('/photographers/:index', function (req, res, next) {
 });
 
 app.get('/selfCare', function (req, res, next) {
-	res.status(202).render('indexPage', {
+	res.status(202).render('service', {
 		ads: [selfCareAds]
 	});
 });
