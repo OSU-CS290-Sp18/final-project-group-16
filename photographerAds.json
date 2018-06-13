@@ -1,20 +1,20 @@
 [
   {
-    "picture": "images/dj.jpg",
-    "title": "Dj Khalid",
-    "text": "We the best music",
+    "picture": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/158371C_410_A_PREM/converse-one-star-premium-suede-low-top-unisex-shoe.jpg",
+    "title": "Sal",
+    "text": "I love taking pictures",
     "rating": "3"
   },
   {
     "picture": "images/dj.jpg",
     "title": "Dj Khalid",
-    "text": "We the best music",
-    "rating": "3"
+    "text": "Did I mention that We the best music",
+    "rating": "6"
   },
   {
     "picture": "images/dj.jpg",
-    "title": "Dj Khalid",
-    "text": "We the best music",
+    "title": "Also Dj Khalid",
+    "text": "We the best pictues",
     "rating": "3"
   }
 ]
