@@ -2,10 +2,8 @@ var path = require('path');
 var express = require('express');
 var exphbs = require('express-handlebars');
 
-
-
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8000;
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
@@ -18,6 +16,10 @@ var photographerAds = require('./photographerAds');
 var selfCareAds = require('./selfCareAds');
 
 app.get('/', function (req, res, next) {
+	res.status(202).render('home');
+});
+
+app.get('/home', function (req, res, next) {
 	res.status(202).render('home');
 });
 
@@ -35,15 +37,15 @@ app.get('/faq', function (req, res, next) {
 
 app.get('/performers', function (req, res, next) {
 	res.status(202).render('service', {
-		ads: [performerAds]
+		ad: [performerAds]
 	});
 });
 
-app.get('/performers/:index', function (req, res, next) {
-  var target = req.params.index;
+app.get('/ad/:adTemplate', function (req, res, next) {
+  var target = req.params.adTemplate;
   if (performerAds[target]) {
     res.status(200).render('service', {
-      ads: [performerAds[target]]});
+      ad: [performerAds[target]]});
   } else {
     next();
   }
@@ -51,15 +53,15 @@ app.get('/performers/:index', function (req, res, next) {
 
 app.get('/photographers', function (req, res, next) {
 	res.status(202).render('service', {
-		ads: [photographerAds]
+		ad: [photographerAds]
 	});
 });
 
-app.get('/photographers/:index', function (req, res, next) {
-  var target = req.params.index;
+app.get('/ad/:adTemplate', function (req, res, next) {
+  var target = req.params.adTemplate;
   if (photographerAds[target]) {
     res.status(200).render('service', {
-      ads: [photographerAds[target]]});
+      ad: [photographerAds[target]]});
   } else {
     next();
   }
@@ -67,15 +69,15 @@ app.get('/photographers/:index', function (req, res, next) {
 
 app.get('/selfCare', function (req, res, next) {
 	res.status(202).render('service', {
-		ads: [selfCareAds]
+		ad: [selfCareAds]
 	});
 });
 
-app.get('/selfCare/:index', function (req, res, next) {
-  var target = req.params.index;
+app.get('/ad/:adTemplate', function (req, res, next) {
+  var target = req.params.adTemplate;
   if (selfCareAds[target]) {
     res.status(200).render('service', {
-      ads: [selfCareAds[target]]});
+      ad: [selfCareAds[target]]});
   } else {
     next();
   }
