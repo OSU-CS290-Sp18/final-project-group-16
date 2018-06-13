@@ -20,13 +20,13 @@ header {
 }
 
 .site-title {
+    background-color: white;
+    color: black;
     font-family: 'Norican', cursive;
-    height: 80px;
     font-size: 70px;
     font-weight: 400;
     text-align: center;
-    background-color: white;
-    color: black;
+    height: 80px;
     margin-top: 0;
     margin-bottom: 25px;
 }
@@ -77,31 +77,32 @@ a:focus {
 }
 
 #navbar-search-box {
+    background-color: #eee;
+    font-size: 16px;
     padding: 4px;
     padding-left: 35px;
-    font-size: 16px;
     width: 280px;
-    background-color: #eee;
     border: none;
     border-radius: 15px;
 }
 
 #navbar-search-box:focus {
-    outline: none;
     background-color: lightgray;
+    outline: none;
 }
 
+/*--------------------Home Page----------------------*/
 .service-container {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
+	justify-content: center;
 	align-items: center;
 	margin-top: 100px;
 }
 
 .service-icon {
     display: inline-block;
-    margin: 15px;
+    margin: 20px;
     padding: 20px;
     float: left;
     text-align: center;
@@ -117,26 +118,28 @@ a:focus {
 }
 
 .service-image {
-    height: 200px;
-    width: 200px;
+	max-width: 100%;
+	height: auto;
     border: 5px solid white;
     border-radius: 50%;
     background-color: #77736b;
+	object-fit: contain;
 }
 
+/*--------------------Contact Page----------------------*/
 .contact-container {
-	float: left;
 	position: relative;
+	float: left;
 	left: 29%;
 } 
 
 .contact {
+    background-color: #fff;
     margin: 15px;
     padding: 10px;
     border: 1px solid #dadada;
     border-radius: 2px;
     width: 500px;
-    background-color: #fff;
 }
 
 .contact-text {
@@ -151,17 +154,18 @@ a:focus {
 }
 
 .contact-text p {
-        margin: 0;
+    margin: 0;
 } 
 
+/*--------------------About Page----------------------*/
 .about-container {
-	text-align: center;
 	position: relative;
+	text-align: center;
 }
 
 .about-header {
-	text-align: center;
 	position: relative;
+	text-align: center;
 }
 
 .about-page-text {
@@ -175,14 +179,15 @@ a:focus {
 	font-size: 200px;
 }
 
+/*--------------------FAQ Page----------------------*/
 .faq-header{
-	text-align: center;
 	position: relative;
+	text-align: center;
 }
 
 .question-container {
-	float: left;
 	position: relative;
+	float: left;
 	left: 29%;
 }
 
@@ -208,25 +213,27 @@ a:focus {
 	margin-top: 14px;
 }
 
+/*--------------------Service/Ad Pages----------------------*/
 .ad-container {
-    margin: 25px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    margin: 25px;
 }
 
 .service-ad {
     flex: 1 200px;
     background-color: #fff;
+ 	position: relative;
     width: 400px;
     margin: 10px;
     border-radius: 10px;
-    /*
-    padding: 20px;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+
+    /*padding: 20px;
     border: 1px solid #dadada;
-    border-radius: 2px;
-    */
+    border-radius: 2px;*/
 }
 
 .ad-header {
@@ -236,7 +243,7 @@ a:focus {
 
 .ad-content {
     display: block;
-    height: 100px;
+    height: 80px;
 }
 
 .ad-picture {
@@ -248,16 +255,37 @@ a:focus {
 }
 
 .ad-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+	text-transform: uppercase;
     float: right;
+	margin-right: 20px;
+	margin-top: 10px;
 }
 
 .ad-text {
+	position: absolute;
+	color: #5b5b5b;
+	font-size: 16px;
     float: left;
+	margin-left: 15px;
 }
 
 .ad-rating {
-    float: right;
+	position: absolute;
+	color: #d1b38c;
+	font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+	font-size: 20px;
+	bottom: 0;
+	right: 0;
+	margin-right: 15px;
 }
+
+
+
 
 /*
 .ad-container {
