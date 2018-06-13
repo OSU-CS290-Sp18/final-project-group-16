@@ -18,6 +18,10 @@ app.get('/', function (req, res, next) {
 	res.status(202).render('home');
 });
 
+app.get('/home', function (req, res, next) {
+	res.status(202).render('home');
+});
+
 app.get('/about', function (req, res, next) {
 	res.status(202).render('about');
 });
