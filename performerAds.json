@@ -6,15 +6,15 @@
     "rating": "3"
   },
   {
-    "picture": "images/dj.jpg",
-    "title": "Dj Khalid",
-    "text": "We the best music",
-    "rating": "3"
+    "picture": "https://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png",
+    "title": "Luke Skywalker",
+    "text": "Nooooooo",
+    "rating": "12"
   },
   {
-    "picture": "images/dj.jpg",
-    "title": "Dj Khalid",
-    "text": "We the best music",
-    "rating": "3"
+    "picture": "https://www.thehappycatsite.com/wp-content/uploads/2017/10/best-treats-for-kittens.jpg",
+    "title": "Leo",
+    "text": "imma cat, ",
+    "rating": "80"
   }
 ]
