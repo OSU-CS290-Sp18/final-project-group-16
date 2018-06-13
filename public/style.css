@@ -124,7 +124,7 @@ a:focus {
 }
 
 .contact-container {
-    margin: 100px 35%;
+    margin: 40px 35%;
     display: block;
     float: right;
     left: -50%;
@@ -132,8 +132,8 @@ a:focus {
 } 
 
 .contact {
-    margin: 2px;
-    padding: 20px;
+    margin: 15px;
+    padding: 10px;
     border: 1px solid #dadada;
     border-radius: 2px;
     width: 500px;
@@ -141,6 +141,13 @@ a:focus {
 }
 
 .contact-text {
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.contact-email {
+    font-size: 22px;
+    font-weight: 400;
     margin-left: 10px;
 }
 
