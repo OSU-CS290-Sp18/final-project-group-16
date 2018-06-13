@@ -1,12 +1,3 @@
-
-/*
- * Write your routing code in this file.  Make sure to add your name and
- * @oregonstate.edu email address below.
- *
- * Name: Joshua Nowlen Webb
- * Email: webbjos@oregonstate.edu
- */
-
 var path = require('path');
 var express = require('express');
 var exphbs = require('express-handlebars');
