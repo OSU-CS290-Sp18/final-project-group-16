@@ -164,3 +164,43 @@ a:focus {
     font-weight: 500;
     font-size: larger;
 }
+
+.ad-container {
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-ad {
+    flex: 0 1 28%;
+    display: flex;
+    margin: 2px;
+    padding: 20px;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.ad-title{
+    font-size: 48px;
+    font-weight: 400;
+}
+.ad-text{
+    font-size: 24px;
+    float: left;
+}
+
+.ad-content {
+    flex: 1 1 80%;
+    /*margin-left: 10px;*/
+}
+
+.ad-content p {
+    margin: 0;
+}
+
+.ad-rating {
+    margin-top: 8px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+}
