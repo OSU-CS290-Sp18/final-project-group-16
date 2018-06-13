@@ -91,13 +91,6 @@ a:focus {
     background-color: lightgray;
 }
 
-.service-container {
-    margin: 100px 17%;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
 .service-icon {
     display: inline-block;
     margin: 15px;
@@ -165,52 +158,6 @@ a:focus {
     font-size: larger;
 }
 
-/*
-.ad-container {
-    margin: 50px 10%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.service-ad {
-    flex: 0 1 28%;
-    display: flex;
-    margin: 2px;
-    padding: 20px;
-    border: 1px solid #dadada;
-    border-radius: 2px;
-    background-color: #fff;
-}
-
-.ad-content {
-    flex: 1 1 80%;
-    /*margin-left: 10px;*/
-}
-
-.ad-title{
-    font-size: 30px;
-    font-weight: 400;
-}
-.ad-text{
-    font-size: 20px;
-    float: left;
-    position: relative;
-    top: 10px;
-    right: 50px;
-}
-
-.ad-content p {
-    margin: 0;
-}
-
-.ad-rating {
-    margin-top: 8px;
-    text-align: right;
-    font-weight: bold;
-    font-size: 30px;
-}
-*/
-
 .ad-container {
     margin: 25px;
     display: flex;
@@ -254,6 +201,8 @@ a:focus {
     float: right;
 }
 
+
+
 .ad-text {
     float: left;
 }
@@ -262,35 +211,46 @@ a:focus {
     float: right;
 }
 
-.faq-header{
-	text-align: center;
-	position: relative;
+/*
+
+.ad-container {
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.question-container{
-	float: left;
-	position: relative;
-	left: 29%;
+.service-ad {
+    flex: 0 1 28%;
+    display: flex;
+    margin: 2px;
+    padding: 20px;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.ad-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.ad-text{
+    font-size: 20px;
+    float: left;
 }
 
-.question{
-	flex: 0 1 28%;
-	display: flex;
-	background-color: white;
-	margin: 2px;
-	padding: 20px;
-	border: 1px solid #dadada;
-	border-radius: 2px;
+.ad-content {
+    flex: 1 1 80%;
+    margin-left: 10px;
 }
 
-.question-text{
-	flex: 1 1 80%;
-	margin-left: 20px;
-	text-align: left;
-	font-weight: bold;
-	margin-top: 15px;
+.ad-content p {
+    margin: 0;
 }
 
-.question-icon{
-	margin-top: 14px;
+.ad-rating {
+    margin-top: 8px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
 }
+
+*/
