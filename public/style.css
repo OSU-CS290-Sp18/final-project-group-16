@@ -78,6 +78,23 @@ a{
 	font-weight: bold;
 }
 
+.contact {
+    margin: 2px;
+    padding: 20px;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    width: 500px;
+    background-color: #fff;
+}
+
+.contact-text {
+    margin-left: 10px;
+}
+
+.contact-text p {
+        margin: 0;
+} 
+
 .about-page {
     text-align: center;
     padding-left: 12em;
