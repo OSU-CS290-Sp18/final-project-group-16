@@ -208,3 +208,36 @@ a:focus {
     font-weight: bold;
     font-size: 30px;
 }
+
+.faq-header{
+	text-align: center;
+	position: relative;
+}
+
+.question-container{
+	float: left;
+	position: relative;
+	left: 29%;
+}
+
+.question{
+	flex: 0 1 28%;
+	display: flex;
+	background-color: white;
+	margin: 2px;
+	padding: 20px;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+}
+
+.question-text{
+	flex: 1 1 80%;
+	margin-left: 20px;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.question-icon{
+	margin-top: 14px;
+}
